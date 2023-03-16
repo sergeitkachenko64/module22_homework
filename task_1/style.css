@@ -1,0 +1,15 @@
+body {
+  background-color: grey;
+}
+
+.russia, .france, .finland, .japan {
+  width: 180px;
+  height: 120px;
+  background-color: #fff;
+}
+
+.switzerland {
+  width: 180px;
+  height: 120px;
+  background-color: red;
+}
