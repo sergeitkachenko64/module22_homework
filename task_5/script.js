@@ -28,7 +28,7 @@ const error = () => {
 const success = (position) => {
   const latitude = position.coords.latitude;
   const longitude = position.coords.longitude;
-  geolocation.href = `https://www.openstreetmap.org/#map=18/${latitude}/${longitude}`;
+  geolocation.href = `https://yandex.ru/maps/?pt=${longitude},${latitude}&z=18&l=map`;
   geolocation.textContent = 'Ссылка на карту';
 }
 
